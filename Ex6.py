@@ -8,11 +8,11 @@ do_not = "don't"
 y = "Those who know %s and those who %s." % (binary, do_not)
 
 # print the following to console
-print x
-print y
+print (x)
+print (y)
 
-print "I said: %r." % x
-print "I also said: '%s'." % y
+print ("I said: %r." % x)
+print ("I also said: '%s'." % y)
 
 # declare variable hilarious with value of Boolean False
 hilarious = False
@@ -20,7 +20,7 @@ hilarious = False
 joke_evaluation = "Isn't that joke so funny?! %r"
 
 # print following to console, with variable hilarious used for %r
-print joke_evaluation % hilarious
+print (joke_evaluation % hilarious)
 
 # declare variable w with value of string
 w = "This is the left side of..."
@@ -28,4 +28,4 @@ w = "This is the left side of..."
 e = "a string with a right side."
 
 # print result of w + e; w + e is a concatenation of the two variables
-print w + e
+print (w + e)
